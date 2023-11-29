@@ -49,7 +49,7 @@ afterEvaluate {
             create<MavenPublication>("maven") {
                 groupId = "com.github.cvivek503"
                 artifactId = "lib"
-                version = "1.0.0"
+                version = "1.0.1"
             }
         }
     }
