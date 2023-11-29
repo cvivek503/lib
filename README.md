@@ -1,8 +1,10 @@
 # lib
 
 Step 1. Add the JitPack repository to your build file
-		
-dependencyResolutionManagement {
+------gradle----
+  
+dependencyResolutionManagement
+{
 		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
 		repositories {
 			mavenCentral()
