@@ -47,6 +47,7 @@ afterEvaluate {
     publishing {
         publications {
             create<MavenPublication>("maven") {
+                from(components["release"])
                 groupId = "com.github.cvivek503"
                 artifactId = "lib"
                 version = "1.0.1"
